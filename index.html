@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reon Control Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>REON</h1>
+
+  <input id="webhook" placeholder="Paste Discord Webhook URL">
+
+  <textarea id="message" placeholder="Type your message..."></textarea>
+
+  <input id="embedTitle" placeholder="Embed Title">
+  <input id="embedDesc" placeholder="Embed Description">
+  <input id="embedColor" placeholder="Embed Color (Hex without #)">
+
+  <button onclick="sendWebhook()">Send Message</button>
+
+  <div id="console"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
